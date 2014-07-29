@@ -57,12 +57,14 @@
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\LoadCutscene.cs" />
      <Compile Include="Assets\Scripts\LoadLevel1.cs" />
+     <Compile Include="Assets\Scripts\Luggage.cs" />
      <Compile Include="Assets\Scripts\Patrol.cs" />
      <Compile Include="Assets\Scripts\Platform.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\PlayerPhysics.cs" />
      <Compile Include="Assets\Scripts\Snail.cs" />
+     <Compile Include="Assets\Scripts\Spikes.cs" />
      <Compile Include="Assets\Scripts\Spinner.cs" />
      <None Include="Assets\Materials\Worlds\Mushroom\Level\spritesheet.xml" />
   </ItemGroup>

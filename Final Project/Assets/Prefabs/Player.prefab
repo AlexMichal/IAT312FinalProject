@@ -28,7 +28,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.0622215, y: 3.93049359, z: 0}
+  m_LocalPosition: {x: -15.6945553, y: 3.66800094, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -90,7 +90,7 @@ MonoBehaviour:
   acceleration: 30
   gravity: 23
   jumpHeight: 13
-  slideDeceleration: 10
+  slideDeceleration: 8
   slideCenterX: 0
   slideCenterY: .349999994
   slideCenterZ: 0

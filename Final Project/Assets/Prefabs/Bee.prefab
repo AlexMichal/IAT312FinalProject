@@ -13,7 +13,7 @@ GameObject:
   - 114: {fileID: 11400000}
   - 114: {fileID: 11400002}
   - 135: {fileID: 13500000}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Bee
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 56.3586693, y: 2.79999995, z: 0}
+  m_LocalPosition: {x: 47.6804161, y: 12.2475119, z: 0}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -70,7 +70,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingPosition: 0
   endPosition: 0
-  unitsToMove: 4
+  unitsToMove: 3
   moveSpeed: 2
 --- !u!135 &13500000
 SphereCollider:

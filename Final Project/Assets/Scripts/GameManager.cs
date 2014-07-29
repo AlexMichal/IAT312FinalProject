@@ -4,8 +4,10 @@ using System.Collections;
 public class GameManager : MonoBehaviour {
 	public static int levelCount = 2;
 	public static int currentLevel = 1;
+	public static int luggageCount = 0;
 	
 	public GameObject player;
+	public GUIText luggageCountText;
 
 	private GameObject currentPlayer;	
 	private GameCamera camera;
@@ -27,6 +29,7 @@ public class GameManager : MonoBehaviour {
 				SpawnPlayer (checkpoint);
 			}
 		}
+		luggageCountText.text = "" + luggageCount;
 	}
 	
 	public void SetCheckpoint(Vector3 cp) {
@@ -49,5 +52,9 @@ public class GameManager : MonoBehaviour {
 		} else {
 			Debug.Log("Game Over");
 		}
+	}
+	
+	public void IncreaseLuggageCount() {
+		luggageCount++;
 	}
 }

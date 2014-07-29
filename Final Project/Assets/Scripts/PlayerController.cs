@@ -154,6 +154,10 @@ public class PlayerController : Player {
 		if (c.tag == "Finish") {
 			manager.EndLevel();
 		}
+		if (c.tag == "Luggage") {
+			Debug.Log("LUGGAGE TOUCH");
+			//luggage.PickUpLuggage();
+		}
 		
 	}
 	#endregion
