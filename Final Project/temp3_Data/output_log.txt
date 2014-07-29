@@ -1,0 +1,99 @@
+Initialize engine version: 4.5.0f6 (fd4616464986)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 660   (ID=0x11c0)
+    Vendor:   NVIDIA
+    VRAM:     1989 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Al\Documents\New Unity Project 3\temp3_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Al\Documents\New Unity Project 3\temp3_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Al\Documents\New Unity Project 3\temp3_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Al\Documents\New Unity Project 3\temp3_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.046 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1783)
+
+HDR RenderTexture format is not supported on this platform. This camera will render without HDR buffers.
+ 
+(Filename:  Line: 2501)
+
+SPACE PRESSED
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1783)
+
+UnloadTime: 0.217575 ms
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+The AnimationClip 'start' used by the Animation component 'Cutscene' must be marked as Legacy.
+ 
+(Filename:  Line: 1998)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 178.
+Total: 0.687380 ms (FindLiveObjects: 0.010245 ms CreateObjectMapping: 0.006027 ms MarkObjects: 0.046106 ms  DeleteObjects: 0.284173 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at LoadLevel1.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 0.196781 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 93 unused Assets to reduce memory usage. Loaded Objects now: 495.
+Total: 0.492407 ms (FindLiveObjects: 0.016574 ms CreateObjectMapping: 0.009341 ms MarkObjects: 0.059968 ms  DeleteObjects: 0.096432 ms)
+
+Player Trigger
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Player Trigger
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Player Trigger
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Player Trigger
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 2.228186 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 145.
+Total: 1.782187 ms (FindLiveObjects: 0.022902 ms CreateObjectMapping: 0.023806 ms MarkObjects: 0.159414 ms  DeleteObjects: 0.353484 ms)
+
+Player Trigger
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Player Trigger
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Player Trigger
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Game Over
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
