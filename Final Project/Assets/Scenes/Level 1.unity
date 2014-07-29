@@ -3480,7 +3480,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 45c5bed82f80ca74eb9ea5dd03411c33, type: 2}
+  - {fileID: 2100000, guid: 48b669cf2eaf58143abcb4cd20cce957, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -6760,7 +6760,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 0}
-  currentLuggage: 0
 --- !u!95 &792896517
 Animator:
   serializedVersion: 3
@@ -12757,7 +12756,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 45c5bed82f80ca74eb9ea5dd03411c33, type: 2}
+  - {fileID: 2100000, guid: 48b669cf2eaf58143abcb4cd20cce957, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -17049,7 +17048,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 45c5bed82f80ca74eb9ea5dd03411c33, type: 2}
+  - {fileID: 2100000, guid: 48b669cf2eaf58143abcb4cd20cce957, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
