@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Bat.cs" />
      <Compile Include="Assets\Scripts\Bee.cs" />
      <Compile Include="Assets\Scripts\BlinkText.cs" />
      <Compile Include="Assets\Scripts\BoxGizmos.cs" />
@@ -63,6 +64,7 @@
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\PlayerPhysics.cs" />
+     <Compile Include="Assets\Scripts\Slime_Purple.cs" />
      <Compile Include="Assets\Scripts\Snail.cs" />
      <Compile Include="Assets\Scripts\Spikes.cs" />
      <Compile Include="Assets\Scripts\Spinner.cs" />
