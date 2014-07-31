@@ -541,7 +541,7 @@ Transform:
   m_PrefabInternal: {fileID: 1881439355}
   m_GameObject: {fileID: 91477556}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.96000004, y: -1.62459648, z: 50}
+  m_LocalPosition: {x: -3.29999995, y: -4.08599997, z: 50}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1819942935}
@@ -563,7 +563,7 @@ GUIText:
   m_TabSize: 0
   m_Font: {fileID: 0}
   m_Material: {fileID: 0}
-  m_FontSize: 12
+  m_FontSize: 15
   m_FontStyle: 0
   m_Color:
     serializedVersion: 2
@@ -3121,7 +3121,7 @@ Transform:
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!1 &698090885
 GameObject:
   m_ObjectHideFlags: 0
@@ -5395,7 +5395,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1112490545}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.5205193, y: 13.7179642, z: 15}
+  m_LocalPosition: {x: 21.0923615, y: 12.6669626, z: 30}
   m_LocalScale: {x: 10, y: 10, z: 8}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8544,7 +8544,7 @@ Transform:
   - {fileID: 1741084034}
   - {fileID: 424716562}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!1 &1837030235
 GameObject:
   m_ObjectHideFlags: 0
@@ -8923,6 +8923,22 @@ Prefab:
     - target: {fileID: 10800000, guid: 9fd8188839b203541b1857169a2ac327, type: 2}
       propertyPath: m_Color.b
       value: .647058845
+      objectReference: {fileID: 0}
+    - target: {fileID: 400018, guid: 9fd8188839b203541b1857169a2ac327, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3.29999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400018, guid: 9fd8188839b203541b1857169a2ac327, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -4.08599997
+      objectReference: {fileID: 0}
+    - target: {fileID: 13200000, guid: 9fd8188839b203541b1857169a2ac327, type: 2}
+      propertyPath: m_FontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 13200000, guid: 9fd8188839b203541b1857169a2ac327, type: 2}
+      propertyPath: m_Text
+      value: x
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9fd8188839b203541b1857169a2ac327, type: 2}
