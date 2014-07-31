@@ -45,10 +45,36 @@ public class GameManager : MonoBehaviour {
 	
 	public void EndLevel() {
 		if (currentLevel < levelCount) {
+			switch (Application.loadedLevelName) {
+				case "Level_1":
+					Application.LoadLevel ("Level_2_Cutscene");
+					break;
+				case "Level_2_Cutscene":
+					Application.LoadLevel ("Level_2");
+					break;
+				case "Level_2":
+					Application.LoadLevel ("Level_3");
+					break;
+				case "Level_3":
+					Application.LoadLevel ("Level_4");
+					break;
+				case "Level_4":
+						Application.LoadLevel ("Final_Cutscene");
+					break;
+				
+			default:
+					
+					break;
+			}
+			
 			currentLevel++;
 			
+			
+			/*if (currentLevel == 1) {
+			
+			}
 			// Change Scene
-			Application.LoadLevel ("Level " + currentLevel);
+			Application.LoadLevel ("Level " + currentLevel);*/
 		} else {
 			Debug.Log("Game Over");
 		}
