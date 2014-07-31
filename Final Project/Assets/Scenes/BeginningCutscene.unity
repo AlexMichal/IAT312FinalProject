@@ -180,6 +180,7 @@ GameObject:
   - 95: {fileID: 377289218}
   - 111: {fileID: 377289217}
   - 212: {fileID: 377289216}
+  - 114: {fileID: 377289220}
   m_Layer: 0
   m_Name: Cutscene
   m_TagString: Untagged
@@ -250,6 +251,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &377289220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 377289215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1629d79806f1b44b84e5e44cb7e0c38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &967781698
 GameObject:
   m_ObjectHideFlags: 0
