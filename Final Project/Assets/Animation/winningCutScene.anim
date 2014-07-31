@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: level1CutScene
+  m_Name: winningCutScene
   serializedVersion: 4
   m_AnimationType: 2
   m_Compressed: 0
@@ -18,11 +18,11 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: dea70901143264a47b343cac8948613f, type: 3}
-    - time: 6.0333333
-      value: {fileID: 21300000, guid: 401287bdd04d09f409a0ca43e00cf26f, type: 3}
-    - time: 10.0166664
-      value: {fileID: 21300000, guid: 401287bdd04d09f409a0ca43e00cf26f, type: 3}
+      value: {fileID: 21300000, guid: cb9b540ea9513ad44ac1ed15e6608489, type: 3}
+    - time: 7
+      value: {fileID: 21300000, guid: d7edbeadcdd1a43488628ee72f6443df, type: 3}
+    - time: 15
+      value: {fileID: 21300000, guid: d7edbeadcdd1a43488628ee72f6443df, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -35,7 +35,7 @@ AnimationClip:
   m_AnimationClipSettings:
     serializedVersion: 2
     m_StartTime: 0
-    m_StopTime: 10.0333328
+    m_StopTime: 15.0166664
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
