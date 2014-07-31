@@ -77,6 +77,7 @@
      <Compile Include="Assets\Scripts\Spinner_MoveLeft.cs" />
      <Compile Include="Assets\Scripts\chooseP1.cs" />
      <Compile Include="Assets\Scripts\chooseP2.cs" />
+     <Compile Include="Assets\Scripts\cutSceneMusic.cs" />
      <Compile Include="Assets\Scripts\loadLevel.cs" />
      <None Include="Assets\Materials\Worlds\Mushroom\Level\spritesheet.xml" />
   </ItemGroup>
