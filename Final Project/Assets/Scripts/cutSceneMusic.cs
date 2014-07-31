@@ -26,7 +26,7 @@ public class cutSceneMusic : MonoBehaviour {
 
 	}
 	IEnumerator reload(){
-		yield return new WaitForSeconds (animation.clip.length-1);
+		yield return new WaitForSeconds (animation.clip.length);
 		Application.LoadLevel ("TitleScreen");
 		
 	}
