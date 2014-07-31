@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameManager.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\cutSceneMusic.cs">
     <Files>
-      <File FileName="Assets\Scripts\GameManager.cs" Line="27" Column="24" />
+      <File FileName="Assets\Scripts\cutSceneMusic.cs" Line="18" Column="59" />
+      <File FileName="Assets\Scripts\loadLevel.cs" Line="16" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
