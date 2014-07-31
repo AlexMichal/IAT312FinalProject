@@ -237,7 +237,7 @@ MonoBehaviour:
   startingPosition: 0
   endPosition: 0
   unitsToMove: 50
-  moveSpeed: 1.5
+  moveSpeed: 1
 --- !u!23 &30033300
 Renderer:
   m_ObjectHideFlags: 0
@@ -670,7 +670,7 @@ MonoBehaviour:
   startingPosition: 0
   endPosition: 0
   unitsToMove: 150
-  moveSpeed: 1.5
+  moveSpeed: 1
 --- !u!23 &92679727
 Renderer:
   m_ObjectHideFlags: 0
@@ -800,7 +800,7 @@ Transform:
   m_PrefabInternal: {fileID: 1433913926}
   m_GameObject: {fileID: 98160881}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 65.2194824, y: 3.01970005, z: 5.53588867}
+  m_LocalPosition: {x: 63, y: 3.01970005, z: 5.53588867}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children: []
   m_Father: {fileID: 613582190}
@@ -819,8 +819,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingPosition: 0
   endPosition: 0
-  unitsToMove: 10
+  unitsToMove: 12
   moveSpeed: 4
+  startLeft: 0
+  faceMovementBearing: 1
 --- !u!1001 &123246137
 Prefab:
   m_ObjectHideFlags: 0
@@ -830,7 +832,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 5c66bb2f7a6dbf744b8c4a4470d6db82, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 61.9411507
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5c66bb2f7a6dbf744b8c4a4470d6db82, type: 2}
       propertyPath: m_LocalPosition.y
@@ -874,7 +876,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: 5c66bb2f7a6dbf744b8c4a4470d6db82, type: 2}
       propertyPath: unitsToMove
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5c66bb2f7a6dbf744b8c4a4470d6db82, type: 2}
@@ -1281,8 +1283,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: .5, z: 1}
+  m_Center: {x: 0, y: -.25, z: 0}
 --- !u!33 &143022994
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1404,7 +1406,7 @@ MonoBehaviour:
   startingPosition: 0
   endPosition: 0
   unitsToMove: 150
-  moveSpeed: 1.5
+  moveSpeed: 1
 --- !u!23 &154207451
 Renderer:
   m_ObjectHideFlags: 0
@@ -1597,7 +1599,7 @@ MonoBehaviour:
   startingPosition: 0
   endPosition: 0
   unitsToMove: 50
-  moveSpeed: 1.5
+  moveSpeed: 1
 --- !u!23 &183657906
 Renderer:
   m_ObjectHideFlags: 0
@@ -2135,7 +2137,7 @@ MonoBehaviour:
   startingPosition: 0
   endPosition: 0
   unitsToMove: 150
-  moveSpeed: 1.5
+  moveSpeed: 1
 --- !u!1 &233656725
 GameObject:
   m_ObjectHideFlags: 0
@@ -2250,7 +2252,7 @@ MonoBehaviour:
   startingPosition: 0
   endPosition: 0
   unitsToMove: 150
-  moveSpeed: .5
+  moveSpeed: 2
 --- !u!23 &235491917
 Renderer:
   m_ObjectHideFlags: 0
@@ -2443,7 +2445,7 @@ MonoBehaviour:
   startingPosition: 0
   endPosition: 0
   unitsToMove: 150
-  moveSpeed: .5
+  moveSpeed: 2
 --- !u!1 &278724783
 GameObject:
   m_ObjectHideFlags: 0
@@ -3347,7 +3349,7 @@ MonoBehaviour:
   startingPosition: 0
   endPosition: 0
   unitsToMove: 150
-  moveSpeed: .25
+  moveSpeed: 2
 --- !u!23 &397117898
 Renderer:
   m_ObjectHideFlags: 0
@@ -4087,6 +4089,8 @@ MonoBehaviour:
   endPosition: 0
   unitsToMove: 3
   moveSpeed: 2
+  startLeft: 0
+  faceMovementBearing: 1
 --- !u!114 &490895689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5100,8 +5104,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: .5, z: 1}
+  m_Center: {x: 0, y: -.25, z: 0}
 --- !u!33 &612565497
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5718,8 +5722,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingPosition: 0
   endPosition: 0
-  unitsToMove: 10
+  unitsToMove: 12
   moveSpeed: 4
+  startLeft: 0
+  faceMovementBearing: 1
 --- !u!114 &645693245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5777,7 +5783,7 @@ Transform:
   m_PrefabInternal: {fileID: 123246137}
   m_GameObject: {fileID: 645693242}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 61.9411507, y: 6.4647913, z: 5.53588867}
+  m_LocalPosition: {x: 60, y: 6.4647913, z: 5.53588867}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children: []
   m_Father: {fileID: 613582190}
@@ -5887,6 +5893,8 @@ MonoBehaviour:
   endPosition: 0
   unitsToMove: 3
   moveSpeed: 2
+  startLeft: 0
+  faceMovementBearing: 1
 --- !u!135 &672648058
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6503,6 +6511,8 @@ MonoBehaviour:
   endPosition: 0
   unitsToMove: 9
   moveSpeed: 2
+  startLeft: 0
+  faceMovementBearing: 1
 --- !u!114 &745945722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6983,7 +6993,7 @@ MonoBehaviour:
   startingPosition: 0
   endPosition: 0
   unitsToMove: 150
-  moveSpeed: 1.5
+  moveSpeed: 1
 --- !u!1 &819843064
 GameObject:
   m_ObjectHideFlags: 0
@@ -7500,6 +7510,8 @@ MonoBehaviour:
   endPosition: 0
   unitsToMove: 6
   moveSpeed: 2
+  startLeft: 0
+  faceMovementBearing: 1
 --- !u!114 &919693207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7693,6 +7705,8 @@ MonoBehaviour:
   endPosition: 0
   unitsToMove: 12
   moveSpeed: 4
+  startLeft: 0
+  faceMovementBearing: 1
 --- !u!114 &947559058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7884,8 +7898,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: .5, z: 1}
+  m_Center: {x: 0, y: -.25, z: 0}
 --- !u!33 &956348656
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8094,8 +8108,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingPosition: 0
   endPosition: 0
-  unitsToMove: 10
+  unitsToMove: 12
   moveSpeed: 4
+  startLeft: 0
+  faceMovementBearing: 1
 --- !u!114 &983702512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8153,7 +8169,7 @@ Transform:
   m_PrefabInternal: {fileID: 1073952508}
   m_GameObject: {fileID: 983702509}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 63.4190178, y: 4.75935793, z: 5.53588867}
+  m_LocalPosition: {x: 61.5, y: 4.75935793, z: 5.53588867}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children: []
   m_Father: {fileID: 613582190}
@@ -8410,7 +8426,7 @@ MonoBehaviour:
   startingPosition: 0
   endPosition: 0
   unitsToMove: 50
-  moveSpeed: .150000006
+  moveSpeed: 2
 --- !u!23 &1005240516
 Renderer:
   m_ObjectHideFlags: 0
@@ -8499,6 +8515,8 @@ MonoBehaviour:
   endPosition: 0
   unitsToMove: 5
   moveSpeed: 2
+  startLeft: 0
+  faceMovementBearing: 1
 --- !u!114 &1008499693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8829,7 +8847,7 @@ MonoBehaviour:
   startingPosition: 0
   endPosition: 0
   unitsToMove: 50
-  moveSpeed: .5
+  moveSpeed: 0
 --- !u!23 &1054100619
 Renderer:
   m_ObjectHideFlags: 0
@@ -9035,7 +9053,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 5c66bb2f7a6dbf744b8c4a4470d6db82, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 63.4190178
+      value: 61.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5c66bb2f7a6dbf744b8c4a4470d6db82, type: 2}
       propertyPath: m_LocalPosition.y
@@ -9079,7 +9097,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: 5c66bb2f7a6dbf744b8c4a4470d6db82, type: 2}
       propertyPath: unitsToMove
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5c66bb2f7a6dbf744b8c4a4470d6db82, type: 2}
@@ -9146,8 +9164,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: .5, z: 1}
+  m_Center: {x: 0, y: -.25, z: 0}
 --- !u!33 &1075829487
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9345,7 +9363,7 @@ MonoBehaviour:
   startingPosition: 0
   endPosition: 0
   unitsToMove: 150
-  moveSpeed: .25
+  moveSpeed: 2
 --- !u!23 &1137971995
 Renderer:
   m_ObjectHideFlags: 0
@@ -9759,7 +9777,7 @@ MonoBehaviour:
   startingPosition: 0
   endPosition: 0
   unitsToMove: 50
-  moveSpeed: 1.5
+  moveSpeed: 1
 --- !u!23 &1187080125
 Renderer:
   m_ObjectHideFlags: 0
@@ -10146,7 +10164,7 @@ MonoBehaviour:
   startingPosition: 0
   endPosition: 0
   unitsToMove: 150
-  moveSpeed: .5
+  moveSpeed: 2
 --- !u!1 &1253433702
 GameObject:
   m_ObjectHideFlags: 0
@@ -11174,7 +11192,7 @@ MonoBehaviour:
   startingPosition: 0
   endPosition: 0
   unitsToMove: 150
-  moveSpeed: .5
+  moveSpeed: 0
 --- !u!23 &1391208858
 Renderer:
   m_ObjectHideFlags: 0
@@ -11348,7 +11366,7 @@ MonoBehaviour:
   startingPosition: 0
   endPosition: 0
   unitsToMove: 150
-  moveSpeed: 1.5
+  moveSpeed: 1
 --- !u!23 &1408954615
 Renderer:
   m_ObjectHideFlags: 0
@@ -11663,7 +11681,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 5c66bb2f7a6dbf744b8c4a4470d6db82, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 65.2194824
+      value: 63
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5c66bb2f7a6dbf744b8c4a4470d6db82, type: 2}
       propertyPath: m_LocalPosition.y
@@ -11707,7 +11725,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: 5c66bb2f7a6dbf744b8c4a4470d6db82, type: 2}
       propertyPath: unitsToMove
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5c66bb2f7a6dbf744b8c4a4470d6db82, type: 2}
@@ -12856,6 +12874,8 @@ MonoBehaviour:
   endPosition: 0
   unitsToMove: 6
   moveSpeed: 2
+  startLeft: 0
+  faceMovementBearing: 1
 --- !u!1 &1578414882
 GameObject:
   m_ObjectHideFlags: 0
@@ -13443,6 +13463,8 @@ MonoBehaviour:
   endPosition: 0
   unitsToMove: 5
   moveSpeed: 2
+  startLeft: 0
+  faceMovementBearing: 1
 --- !u!114 &1644159238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13826,7 +13848,7 @@ MonoBehaviour:
   startingPosition: 0
   endPosition: 0
   unitsToMove: 150
-  moveSpeed: 1.5
+  moveSpeed: 1
 --- !u!23 &1690705227
 Renderer:
   m_ObjectHideFlags: 0
@@ -14088,7 +14110,7 @@ MonoBehaviour:
   startingPosition: 0
   endPosition: 0
   unitsToMove: 150
-  moveSpeed: .25
+  moveSpeed: 2
 --- !u!1 &1725855356
 GameObject:
   m_ObjectHideFlags: 0
@@ -14673,7 +14695,7 @@ MonoBehaviour:
   startingPosition: 0
   endPosition: 0
   unitsToMove: 150
-  moveSpeed: 1.5
+  moveSpeed: 1
 --- !u!23 &1749732083
 Renderer:
   m_ObjectHideFlags: 0
@@ -15248,7 +15270,7 @@ MonoBehaviour:
   startingPosition: 0
   endPosition: 0
   unitsToMove: 150
-  moveSpeed: 1.5
+  moveSpeed: 1
 --- !u!23 &1802428758
 Renderer:
   m_ObjectHideFlags: 0
@@ -15650,7 +15672,7 @@ MonoBehaviour:
   startingPosition: 0
   endPosition: 0
   unitsToMove: 150
-  moveSpeed: 1.5
+  moveSpeed: 1
 --- !u!23 &1850754518
 Renderer:
   m_ObjectHideFlags: 0
@@ -15736,7 +15758,7 @@ MonoBehaviour:
   startingPosition: 0
   endPosition: 0
   unitsToMove: 150
-  moveSpeed: .5
+  moveSpeed: 0
 --- !u!23 &1853074847
 Renderer:
   m_ObjectHideFlags: 0
@@ -15828,6 +15850,8 @@ MonoBehaviour:
   endPosition: 0
   unitsToMove: 9
   moveSpeed: 2
+  startLeft: 0
+  faceMovementBearing: 1
 --- !u!114 &1886166589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16157,8 +16181,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: .5, z: 1}
+  m_Center: {x: 0, y: -.25, z: 0}
 --- !u!33 &1933047876
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -17415,8 +17439,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: .5, z: 1}
+  m_Center: {x: 0, y: -.25, z: 0}
 --- !u!33 &2055185233
 MeshFilter:
   m_ObjectHideFlags: 0
