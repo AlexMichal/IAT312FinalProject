@@ -64,6 +64,7 @@
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\PlayerPhysics.cs" />
+     <Compile Include="Assets\Scripts\RockslideEvent.cs" />
      <Compile Include="Assets\Scripts\Slime_Purple.cs" />
      <Compile Include="Assets\Scripts\Snail.cs" />
      <Compile Include="Assets\Scripts\Spikes.cs" />
