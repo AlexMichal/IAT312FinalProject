@@ -3,7 +3,6 @@ using System.Collections;
 
 public class Player : MonoBehaviour {	
 	public float health = 100;
-	
 	public void TakeDamage(float damage) {
 		health = health - damage;
 		

@@ -15,7 +15,7 @@ public class cutSceneMusic : MonoBehaviour {
 
 	}
 	IEnumerator loadNext(){
-		yield return new WaitForSeconds (animation.clip.length);
+		yield return new WaitForSeconds (animation.clip.length + 5);
 		Application.LoadLevel (Application.loadedLevel + 1);
 
 	}
