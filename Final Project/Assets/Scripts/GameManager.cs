@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class GameManager : MonoBehaviour {
-	public static int levelCount = 3;
+	public static int levelCount = 4;
 	public static int currentLevel = 1;
 	public static int luggageCount = 0;
 	
