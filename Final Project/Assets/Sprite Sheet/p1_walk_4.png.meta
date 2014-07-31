@@ -35,7 +35,6 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -51,7 +50,6 @@ TextureImporter:
         height: 92
       alignment: 7
       pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk2
       rect:
         serializedVersion: 2
@@ -61,7 +59,6 @@ TextureImporter:
         height: 92
       alignment: 7
       pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: p1_walk_4_2
       rect:
         serializedVersion: 2
@@ -71,7 +68,6 @@ TextureImporter:
         height: 92
       alignment: 7
       pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk4
       rect:
         serializedVersion: 2
@@ -81,7 +77,6 @@ TextureImporter:
         height: 93
       alignment: 7
       pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk3
       rect:
         serializedVersion: 2
@@ -91,7 +86,6 @@ TextureImporter:
         height: 95
       alignment: 7
       pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: p1_walk_4_5
       rect:
         serializedVersion: 2
@@ -101,7 +95,6 @@ TextureImporter:
         height: 92
       alignment: 7
       pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk7
       rect:
         serializedVersion: 2
@@ -111,7 +104,6 @@ TextureImporter:
         height: 91
       alignment: 7
       pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk6
       rect:
         serializedVersion: 2
@@ -121,7 +113,6 @@ TextureImporter:
         height: 90
       alignment: 7
       pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk5
       rect:
         serializedVersion: 2
@@ -131,7 +122,6 @@ TextureImporter:
         height: 92
       alignment: 7
       pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: p1_walk_4_9
       rect:
         serializedVersion: 2
@@ -141,7 +131,6 @@ TextureImporter:
         height: 94
       alignment: 7
       pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: p1_walk_4_10
       rect:
         serializedVersion: 2
@@ -151,7 +140,6 @@ TextureImporter:
         height: 92
       alignment: 7
       pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: p1_walk_4_11
       rect:
         serializedVersion: 2
@@ -161,7 +149,6 @@ TextureImporter:
         height: 92
       alignment: 7
       pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: duck
       rect:
         serializedVersion: 2
@@ -171,7 +158,6 @@ TextureImporter:
         height: 71
       alignment: 7
       pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: p1_walk_4_13
       rect:
         serializedVersion: 2
@@ -181,7 +167,6 @@ TextureImporter:
         height: 92
       alignment: 7
       pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: jump
       rect:
         serializedVersion: 2
@@ -191,6 +176,5 @@ TextureImporter:
         height: 94
       alignment: 7
       pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

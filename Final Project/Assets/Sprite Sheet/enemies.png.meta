@@ -35,7 +35,6 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -51,7 +50,6 @@ TextureImporter:
         height: 62
       alignment: 0
       pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemies_1
       rect:
         serializedVersion: 2
@@ -61,7 +59,6 @@ TextureImporter:
         height: 45
       alignment: 0
       pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemies_2
       rect:
         serializedVersion: 2
@@ -71,7 +68,6 @@ TextureImporter:
         height: 40
       alignment: 0
       pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemies_3
       rect:
         serializedVersion: 2
@@ -81,7 +77,6 @@ TextureImporter:
         height: 181
       alignment: 0
       pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemies_4
       rect:
         serializedVersion: 2
@@ -91,7 +86,6 @@ TextureImporter:
         height: 47
       alignment: 0
       pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemies_5
       rect:
         serializedVersion: 2
@@ -101,7 +95,6 @@ TextureImporter:
         height: 45
       alignment: 0
       pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemies_6
       rect:
         serializedVersion: 2
@@ -111,7 +104,6 @@ TextureImporter:
         height: 57
       alignment: 0
       pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spinner2
       rect:
         serializedVersion: 2
@@ -121,7 +113,6 @@ TextureImporter:
         height: 62
       alignment: 0
       pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemies_8
       rect:
         serializedVersion: 2
@@ -131,7 +122,6 @@ TextureImporter:
         height: 48
       alignment: 0
       pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemies_9
       rect:
         serializedVersion: 2
@@ -141,7 +131,6 @@ TextureImporter:
         height: 45
       alignment: 0
       pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemies_10
       rect:
         serializedVersion: 2
@@ -151,7 +140,6 @@ TextureImporter:
         height: 35
       alignment: 0
       pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemies_11
       rect:
         serializedVersion: 2
@@ -161,7 +149,6 @@ TextureImporter:
         height: 40
       alignment: 0
       pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spinner1
       rect:
         serializedVersion: 2
@@ -171,7 +158,6 @@ TextureImporter:
         height: 60
       alignment: 0
       pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemies_13
       rect:
         serializedVersion: 2
@@ -181,6 +167,5 @@ TextureImporter:
         height: 37
       alignment: 0
       pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
