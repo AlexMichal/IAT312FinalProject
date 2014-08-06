@@ -93,7 +93,7 @@ GameObject:
   m_IsActive: 1
 --- !u!95 &413669364
 Animator:
-  serializedVersion: 2
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -102,8 +102,8 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 44794b8172c9ebf4186c55a15c062ac7, type: 2}
   m_CullingMode: 0
+  m_UpdateMode: 0
   m_ApplyRootMotion: 1
-  m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
 --- !u!212 &413669365
 SpriteRenderer:
@@ -123,9 +123,8 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
   m_SortingLayerID: 0
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: dea70901143264a47b343cac8948613f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &413669366
@@ -139,6 +138,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 1
 --- !u!1 &1407250282
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,8 +206,11 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
   m_HDR: 0
   m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: .0219999999
 --- !u!4 &1407250287
 Transform:
   m_ObjectHideFlags: 0
@@ -219,6 +222,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 2
 --- !u!1 &1645636652
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,9 +262,8 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
   m_SortingLayerID: 0
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 5838a571202048a47af480bd2e7dc1cb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1645636654
@@ -274,6 +277,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!111 &1645636655
 Animation:
   m_ObjectHideFlags: 0
@@ -290,7 +294,7 @@ Animation:
   m_CullingType: 0
 --- !u!95 &1645636656
 Animator:
-  serializedVersion: 2
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -299,8 +303,8 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 68ff2de5b8e384c40b216a15e66813f0, type: 2}
   m_CullingMode: 0
+  m_UpdateMode: 0
   m_ApplyRootMotion: 1
-  m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
 --- !u!114 &1645636657
 MonoBehaviour:
